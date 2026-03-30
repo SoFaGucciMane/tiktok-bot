@@ -301,7 +301,7 @@ async def auto_check(context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # Токен берётся из переменной окружения (настраивается в Railway)
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = "ВСТАВЬТЕ_ВАШ_ТОКЕН_ОТ_BOTFATHER"
 
     if not BOT_TOKEN:
         print("❌ Переменная BOT_TOKEN не установлена!")
